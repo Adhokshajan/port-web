@@ -4,13 +4,13 @@ import { Github, Linkedin, Mail, ExternalLink, Code2, Briefcase, User, ChevronDo
 const projects = [
   {
     title: "Expense Tracker",
-    description: "A full-featured e-commerce mobile application built with React Native and Firebase, featuring real-time updates, user authentication, and payment integration.",
+    description: "A full-featured  mobile application built with Flutter and Firebase, featuring real-time updates, user authentication",
     technologies: ["Flutter", "Firebase"],
     link: "https://github.com/Adhokshajan/expense_tracker"
   },
   {
     title: "Quiz App",
-    description: "A collaborative task management solution developed using Flutter and Supabase, enabling teams to organize and track projects efficiently.",
+    description: "A Quiz app developeed  using Flutter .",
     technologies: ["Flutter", "Firebase"],
     link: "https://github.com/Adhokshajan/quizz_app"
   }
