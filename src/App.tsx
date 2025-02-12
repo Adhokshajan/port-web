@@ -114,7 +114,12 @@ function App() {
                         </span>
                       ))}
                     </div>
-                    <a href={project.link} className="text-indigo-600 hover:text-indigo-700 transition-colors">
+                   <a 
+                      href={project.link} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="text-indigo-600 hover:text-indigo-700 transition-colors"
+                    >
                       <ExternalLink size={20} />
                     </a>
                   </div>
