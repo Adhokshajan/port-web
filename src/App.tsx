@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col justify-center relative px-4 sm:px-6 lg:px-8">
+          <section className="min-h-screen flex flex-col justify-center relative px-4 sm:px-6 lg:px-8">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-indigo-100 opacity-70"></div>
           <img
@@ -48,9 +48,6 @@ function App() {
               <Mail size={24} />
             </a>
           </div>
-          <a href="adhokshajan.official@gmail.com" className="animate-bounce inline-block animate-fade-up animate-delay-300">
-            <ChevronDown size={32} className="text-gray-600" />
-          </a>
         </div>
       </section>
 
