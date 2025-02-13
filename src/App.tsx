@@ -15,6 +15,21 @@ const projects = [
     link: "https://github.com/Adhokshajan/quizz_app"
   }
 ];
+const education = [
+  {
+    degree: "Bachelor of Engineering in Electronics and Communication Engineering",
+    institution: "SRM Institute of Science and Technology",
+    year: "2024 - 2028",
+    location: "Ramapuram ,Chennai",
+    
+  },
+  {
+    degree: "Higher Secondary Education",
+    institution: "DAV Public School",
+    year: "2022 - 2024",
+    location: "Velachery,Chennai",
+  }
+];
 
 function App() {
   return (
@@ -84,6 +99,36 @@ function App() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+       {/* Education Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-gray-900 mb-12 flex items-center gap-2 justify-center animate-scale">
+            <GraduationCap className="text-indigo-600" />
+            Education
+          </h2>
+          <div className="space-y-8">
+            {education.map((edu, index) => (
+              <div 
+                key={index} 
+                className="bg-white rounded-lg shadow-lg p-6 hover-lift animate-fade-up"
+                style={{ animationDelay: `${index * 100}ms` }}
+              >
+                <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900">{edu.degree}</h3>
+                    <p className="text-indigo-600 font-medium">{edu.institution}</p>
+                    <p className="text-gray-600">{edu.location}</p>
+                  </div>
+                  <div className="flex flex-col items-end">
+                    <span className="text-gray-500">{edu.year}</span>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
