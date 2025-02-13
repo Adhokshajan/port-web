@@ -44,7 +44,7 @@ function App() {
             <a href="https://www.linkedin.com/in/adhokshajan-ranganath-00b534308/" className="text-gray-600 hover:text-indigo-600 transition-colors hover-lift">
               <Linkedin size={24} />
             </a>
-            <a href="#" className="text-gray-600 hover:text-indigo-600 transition-colors hover-lift">
+            <a href="mailto:adhokshajan.official@gmail.com" className="text-gray-600 hover:text-indigo-600 transition-colors hover-lift">
               <Mail size={24} />
             </a>
           </div>
@@ -138,7 +138,7 @@ function App() {
             I'm always interested in hearing about new projects and opportunities.
           </p>
           <a
-            href="mailto:contact@example.com"
+            href="mailto:adhokshajan.official@gmail.com"
             className="inline-flex items-center gap-2 bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors hover-lift animate-fade-up animate-delay-100"
           >
             <Mail size={20} />
@@ -153,13 +153,13 @@ function App() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             
             <div className="flex space-x-4 mt-4 md:mt-0">
-              <a href="#" className="hover:text-white transition-colors hover-lift">
+              <a href="https://github.com/Adhokshajan" className="hover:text-white transition-colors hover-lift">
                 <Github size={20} />
               </a>
-              <a href="#" className="hover:text-white transition-colors hover-lift">
+              <a href="https://www.linkedin.com/in/adhokshajan-ranganath-00b534308/" className="hover:text-white transition-colors hover-lift">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="hover:text-white transition-colors hover-lift">
+              <a href="mailto:adhokshajan.official@gmail.com" className="hover:text-white transition-colors hover-lift">
                 <Mail size={20} />
               </a>
             </div>
