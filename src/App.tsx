@@ -10,7 +10,7 @@ const projects = [
   },
   {
     title: "Quiz App",
-    description: "A Quiz app developeed  using Flutter .",
+    description: "A Quiz app developed  using Flutter .",
     technologies: ["Flutter", "Firebase"],
     link: "https://github.com/Adhokshajan/quizz_app"
   }
