@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail, ExternalLink, Code2, Briefcase, User, ChevronDown } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, Code2, Briefcase, User, GraduationCap } from 'lucide-react';
 
 const projects = [
   {
@@ -15,6 +15,7 @@ const projects = [
     link: "https://github.com/Adhokshajan/quizz_app"
   }
 ];
+
 const education = [
   {
     degree: "Bachelor of Engineering in Electronics and Communication Engineering",
@@ -35,7 +36,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-          <section className="min-h-screen flex flex-col justify-center relative px-4 sm:px-6 lg:px-8">
+      <section className="min-h-screen flex flex-col justify-center relative px-4 sm:px-6 lg:px-8">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-indigo-100 opacity-70"></div>
           <img
@@ -103,7 +104,7 @@ function App() {
         </div>
       </section>
 
-       {/* Education Section */}
+      {/* Education Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900 mb-12 flex items-center gap-2 justify-center animate-scale">
@@ -134,7 +135,7 @@ function App() {
       </section>
 
       {/* Projects Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900 mb-12 flex items-center gap-2 justify-center animate-scale">
             <Code2 className="text-indigo-600" />
@@ -156,7 +157,7 @@ function App() {
                         </span>
                       ))}
                     </div>
-                   <a 
+                    <a 
                       href={project.link} 
                       target="_blank" 
                       rel="noopener noreferrer" 
@@ -173,7 +174,7 @@ function App() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-2 justify-center animate-scale">
             <Briefcase className="text-indigo-600" />
@@ -196,7 +197,6 @@ function App() {
       <footer className="bg-gray-900 text-gray-300 py-8">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            
             <div className="flex space-x-4 mt-4 md:mt-0">
               <a href="https://github.com/Adhokshajan" className="hover:text-white transition-colors hover-lift">
                 <Github size={20} />
