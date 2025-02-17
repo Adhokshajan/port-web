@@ -170,6 +170,17 @@ function App() {
               </div>
             ))}
           </div>
+          <div className="text-center mt-12 animate-fade-up">
+            <a 
+              href="https://github.com/Adhokshajan" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-indigo-600 hover:text-indigo-700 transition-colors text-lg font-medium hover-lift"
+            >
+              <Github size={24} />
+              View more projects on GitHub
+            </a>
+          </div>
         </div>
       </section>
 
